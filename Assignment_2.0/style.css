@@ -1,0 +1,146 @@
+html{
+    padding: 30px 30px 0px 30px;
+    background-color:midnightblue;
+}
+body {
+    padding: 0px 0px 0px 0px;
+    border: 6px groove yellowgreen;
+    border-radius: 5px;
+    background-color:rgb(24, 23, 31);   
+    box-shadow: 5px 5px 10px black; 
+}
+h1 {
+    text-align: center;
+    color:crimson;
+    background-color: cyan;
+    font-family: 'Lucida Handwriting';
+    font-size: 60px;
+    text-shadow: 2px 2px 5px crimson;
+
+}
+.header {
+    background-color: cyan;
+}
+.button {
+    background-color: greenyellow;
+    font-size: 40px;
+    padding: 10px ;
+    float:left  ;
+    border: 0px solid ;
+    color:indianred;
+    width: 300px;
+    cursor:pointer;
+    transition-duration: 1s;
+
+    /* text-decoration: underline; */
+}
+.button:hover{
+    background-color:limegreen;
+    box-shadow: 0px 12px 16px 0 rgba(0,0,0,24), 0 17px 50px 0 rgba(0,0,0,24);
+    /* height: 50px; */
+
+}
+.buttons {
+    padding: 0px 0px 0px 0px;
+    box-shadow: 0 12px 16px 0 rgba(185, 47, 12, 0.24), 0 10px 10px 0 rgba(179, 32, 12, 0.19);
+}
+.buttons:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#intro {
+    color:mediumturquoise;
+    padding: 0px 0px 0px 5px;
+    font-size: 40px;
+    text-align: left;
+    margin: 40px 40px
+}
+.p_intro {
+    color:burlywood;
+    font-size: 30px;
+    text-align: left;
+    /* line-height: 25px; */
+}
+hr {
+    height:2px;
+    border-width: 0;
+    width:55vw;
+    color:indigo;
+    background-color:rgb(241, 148, 8);
+    margin:100px auto;
+}
+#achieve {
+    color:palegreen;
+    font-size: 40px;
+    text-align: left;
+    margin: 0px 40px;
+}
+.p_ac {
+    color:peru;
+    font-size: 30px;
+    text-align: left;
+    margin: 0px 50 px;
+}
+#project {
+    color:rgb(4, 160, 4);
+    font-size: 40px;
+    text-align: left;
+    margin: 0 40px;
+}
+.p_pro {
+    color:gold;
+    font-size: 30px;
+}
+a {
+    color:goldenrod;
+}
+a:hover {
+    cursor:pointer;
+    color:red;
+}
+#me {
+    float:right;
+    width:30vw;
+    max-width:100%;
+    /* align: right; */
+    height:auto;
+    margin:100px 10vw 100px 10vw;
+    /* margin-right:100px; */
+    /* padding: 50px 400px; */
+    border:5px groove gold;
+    border-radius: 200px;
+}
+#iitk {
+    margin: 10px 10vw 1px 0px;
+    float:right;
+    border:5px groove gold;
+    border-radius: 20px;
+}
+#contact {
+    background-color: rgb(9, 24, 13);
+    /* margin:20px 0px 0px 0px; */
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+h3.contacts {
+    font-size: 30px;
+    text-align: center;
+    color:lightcoral;
+    margin: 100px 0px 0px 0px;
+}
+p.contacts {
+    font-size: 20px;
+    text-align: center;
+    color:lightcoral;
+}
+.sm {
+    height:50px;
+    width:50px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+/* ul.p_ac { */
+    /* margin:0px 50px 0px 500px; */
+/* } */
+p {
+    margin: 0 20px;
+}
